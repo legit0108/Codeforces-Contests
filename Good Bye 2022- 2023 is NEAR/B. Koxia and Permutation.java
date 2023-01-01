@@ -14,7 +14,7 @@ public class Main {
    -> k=1: All permutations yield same answer
    -> k>1: What can be the minimum possible maximum value? Design permutation accordingly
    -> The minimum possible maximum value = n(max of a k sized subarray) + 1(min of a k sized subarray)
-   -> We can achieve this through the following procedure: pair up [n,1], pair up[n-1, 2], pair up[n-2, 3].... and so on
+   -> We can achieve this through the following procedure: pair up [n,1], pair up[n-1, 2], pair up[n-2, 3]... and so on
   */
 
   // TC: O(n)
