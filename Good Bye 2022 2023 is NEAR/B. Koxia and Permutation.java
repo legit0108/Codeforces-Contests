@@ -10,9 +10,9 @@ public class Main {
   static HashMap<Long, Long> map;
   
   /*
-   -> Divide into two cases: either k=1 or k>1
-   -> k=1 all permutations yield same answer
-   -> k>1: what can be the minimum possible maximum value? Design permutation accordingly
+   -> Divide into two cases: Either k=1 or k>1
+   -> k=1: All permutations yield same answer
+   -> k>1: What can be the minimum possible maximum value? Design permutation accordingly
    -> The minimum possible maximum value = n(max of a k sized subarray) + 1(min of a k sized subarray)
    -> We can achieve this through the following procedure: pair up [n,1], pair up[n-1, 2], pair up[n-2, 3].... and so on
   */
